@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+h1{
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(#63092a, #661816);
+    font-size: 28px;
+    text-align: left;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: #fff;
+    padding-left: 50px;
+    margin: 0;
+    opacity: 0.8;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+body{
+    background: #fff;
+    overflow: hidden;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #000;
+    font-family: 'Indie Flower', cursive;
+}
+
+.head{
+    background: url(bg.jpg);
+    height: 300px;
+    background-size: cover;
+}
+
+
+.login_div{
+    border: 1px solid #fff;
+    position: absolute;
+    top: 240px;
+    background: #fff;
+    left: 500px;
+    height: 400px;
+    width: 350px;
+    box-shadow: 0 0 10px #000;
+}
+
+.login_div input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    text-transform: capitalize;
+    outline: none;
+    border: 0.05px solid rgba(0,0,0,0.5);
+
+}
+
+.login_div span{
+    border: 1px solid #fff;
+    font-size: 20px;
+}
+
+button{
+    margin-top: 40px;
+    width: 80%;
+}
